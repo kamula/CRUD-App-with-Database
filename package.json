@@ -1,19 +1,29 @@
 {
-  "name": "express_crud_app",
-  "version": "1.0.0",
-  "description": "crud app with database",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kamula/CRUD-App-with-Database.git"
-  },
-  "author": "isaac",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kamula/CRUD-App-with-Database/issues"
-  },
-  "homepage": "https://github.com/kamula/CRUD-App-with-Database#readme"
+    "name": "express_crud_app",
+    "version": "1.0.0",
+    "description": "crud app with database",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kamula/CRUD-App-with-Database.git"
+    },
+    "author": "isaac",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kamula/CRUD-App-with-Database/issues"
+    },
+    "homepage": "https://github.com/kamula/CRUD-App-with-Database#readme",
+    "dependencies": {
+        "dotenv": "^9.0.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
 }
