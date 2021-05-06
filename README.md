@@ -23,9 +23,9 @@ The endpoint routes are shown in this diagram
 
 
 
-The app has been deployed on heroku
+The app has been deployed on heroku:  [link to heroku base url](https://crud-app-with-database.herokuapp.com/).
 
-Further documentation can be found in the link below.
+For Further API documentation visit link below to view the endpoints (published api docs).
 
 
 
