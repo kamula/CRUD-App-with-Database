@@ -9,15 +9,16 @@ const database = process.env.DATABASE_URL.replace(
     process.env.DATABASE_PASSWORD
 );
 // connect to db
-mongoose.connect(database, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true
-}).then(conn => {
-
-    console.log('conected to db')
-})
+mongoose
+    .connect(database, {
+        useNewUrlParser: true,
+        useCreateIndex: true,
+        useFindAndModify: false,
+        useUnifiedTopology: true,
+    })
+    .then((conn) => {
+        console.log('conected to db');
+    });
 
 const port = process.env.PORT || 8000;
 
