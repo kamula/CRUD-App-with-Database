@@ -36,13 +36,18 @@ exports.getAllData = async(req, res) => {
 exports.getSingleItem = async(req, res) => {
     try {
         const data = await Crud.findById(req.params.id);
-        res.status(204).json({
+        res.status(200).json({
             message: 'success',
             data: {
                 data,
             },
         });
-    } catch (err) {}
+    } catch (err) {
+        res.status(204).json({
+            message: 'fail',
+            data: null,
+        });
+    }
 };
 // update data
 exports.updateData = async(req, res) => {
