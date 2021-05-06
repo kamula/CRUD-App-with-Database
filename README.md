@@ -10,8 +10,8 @@
 
 The API has 5 endpoints
 
-* GET all the data from database
-* GET single item from database using id
+* GET all the data from database:  [link](https://crud-app-with-database.herokuapp.com/api/v1/crud)
+* GET single item from database using id: [link](https://crud-app-with-database.herokuapp.com/api/v1/crud/6093d7ebb5a13f53187a9e78)
 * POST data to the database
 * UPDATE data in the database
 * DELETE data from the database
